@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, user-scalable=no"
+    />
+    <link rel="icon" type="image/x-icon" href="favicon.ico" />
+    <link rel="stylesheet" href="reset.css" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Berinjela</title>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <a class="text link second-text-color" href="#">Inicio</a>
+        <a class="text link second-text-color" href="#advantage">Vantagens</a>
+        <a class="text link second-text-color" href="#recipe">Receitas</a>
+        <a class="text link second-text-color" href="#farm">Cultivo</a>
+      </nav>
+    </header>
+    <main>
+      <article class="about">
+        <div class="transparent-container">
+          <img class="icone" src="favicon.ico" />
+          <p class="title second-text-color">
+            Descubra a berinjela, um verdadeiro tesouro gastronômico!
+          </p>
+          <p class="title second-text-color">
+            Com uma diversidade de vitaminas.
+          </p>
+        </div>
+      </article>
+      <article id="advantage" class="advantage topic">
+        <div class="advantage-text">
+          <p class="title primary-text-color">Vantagens</p>
+          <p class="text primary-text-color">
+            A berinjela é muito mais do que um simples vegetal. Com sua
+            aparência atraente e sabor único, ela também oferece uma série de
+            vantagens nutritivas para promover a saúde e o bem-estar. Descubra
+            agora por que a berinjela deve fazer parte da sua alimentação
+            equilibrada!
+          </p>
+          <p class="text primary-text-color" style="font-weight: 500">
+            Confira suas vantagens:
+          </p>
+          <p class="text primary-text-color">
+            Fibras para uma Digestão Saudável: A berinjela é rica em fibras
+            alimentares, promovendo a saúde digestiva e prevenindo a
+            constipação.
+          </p>
+          <p class="text primary-text-color">
+            Antioxidantes para Combater os Radicais Livres: A berinjela contém
+            antioxidantes poderosos, como a nasunina, que protegem as células
+            contra danos oxidativos e promovem a saúde geral do corpo.
+          </p>
+        </div>
+        <div class="advantage-image">
+          <img src="./images/advantages.jpeg" alt="Saudável" />
+        </div>
+      </article>
+      <article id="recipe" class="recipe topic">
+        <p class="title second-text-color">Receitas</p>
+        <div class="card-list">
+          <div
+            class="recipe-card"
+            style="background-image: url('./images/recipe-1.png')"
+          >
+            <div class="recipe-descripton">
+              <p class="title second-text-color">Brusqueta</p>
+              <p class="text second-text-color">
+                A brusqueta é uma ótima opção de entrada, e esta versão deixa de
+                lado o pão para substituir pela berinjela, dando um sabor
+                especial e mais saudável.
+              </p>
+              <button
+                onclick="openTab('https://www.receiteria.com.br/receita/brusquetas-de-berinjela')"
+                class="recipe-button"
+              >
+                Ver Receita
+              </button>
+            </div>
+          </div>
+          <div
+            class="recipe-card"
+            style="background-image: url('./images/recipe-2.png')"
+          >
+            <div class="recipe-descripton">
+              <p class="title second-text-color">Berinjela assada</p>
+              <p class="text second-text-color">
+                Saboroso e simples, esta receita é perfeita para um lanche
+                rápido e saboroso. Além da berinjela, vai rodelas de tomate e
+                parmesão ralado.
+              </p>
+              <button
+                onclick="openTab('https://www.receiteria.com.br/receita/berinjela-assada-com-tomate-e-parmesao')"
+                class="recipe-button"
+              >
+                Ver Receita
+              </button>
+            </div>
+          </div>
+          <div
+            class="recipe-card"
+            style="background-image: url('./images/recipe-3.png')"
+          >
+            <div class="recipe-descripton">
+              <p class="title second-text-color">Pasta de berinjela</p>
+              <p class="text second-text-color">
+                A Pasta de Berinjela é perfeita para acompanhar uma torradinha
+                ou passar no pãozinho do café. tem parte do seu preparo feito na
+                airfryer.
+              </p>
+              <button
+                onclick="openTab('https://www.receiteria.com.br/receita/pasta-de-berinjela-na-airfryer')"
+                class="recipe-button"
+              >
+                Ver Receita
+              </button>
+            </div>
+          </div>
+        </div>
+      </article>
+      <article id="farm" class="farm topic">
+        <div class="farm-text">
+          <p class="title primary-text-color">Cultivo</p>
+          <p class="text primary-text-color">
+            A berinjela é uma planta cultivada em diversas regiões do mundo. Para o cultivo, escolha uma variedade adequada ao clima local. Prepare o solo, removendo ervas daninhas e adicionando matéria orgânica. As sementes podem ser plantadas em recipientes e, quando as mudas estiverem com 10-15 cm de altura, transplantadas para o solo definitivo
+          </p>
+          <p class="text primary-text-color">
+            berinjela precisa de luz solar direta (6 horas/dia) e temperaturas entre 21°C e 29°C. Fornecer suporte vertical para as plantas é importante. Mantenha o solo úmido, evitando encharcamentos. A irrigação por gotejamento é recomendada. A fertilização regular com nutrientes adequados é essencial para o crescimento saudável.
+          </p>
+          <p class="text primary-text-color">
+            ocorre geralmente entre 70 a 90 dias após o plantio, quando os frutos atingem o tamanho desejado e têm uma cor brilhante e uniforme.
+          </p>
+        </div>
+        <div class="farm-image">
+          <img src="./images/farm.jpg" alt="Fazenda" />
+        </div>
+      </article>
+    </main>
+
+    <script>
+      function openTab(url) {
+        window.open(url, "_blank");
+      }
+    </script>
+  </body>
+</html>
